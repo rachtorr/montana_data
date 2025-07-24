@@ -1,0 +1,104 @@
+---
+title: "purple air data exploration"
+output: html_document
+---
+
+```{r setup, include=FALSE, echo=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+
+```
+
+## Load in CSV file 
+
+- Data is read in with `read.csv()`
+- Summarize all columns with `summary()`
+- See how many different sensors are and what they are labelled with `unique()`
+
+```{r}
+# load in and check out data 
+purp_air <- read.csv("all_data_12324.csv")
+
+# get summary info 
+summary(purp_air)
+
+# check how many different sensors there are and their name 
+unique(purp_air$sensor)
+
+# check time step
+head(purp_air$time_stamp)
+
+
+```
+
+4 different sensors are included with prefix "CA-"
+
+only column with NA's is `voc`, with 223 NAs 
+
+## Tidy data frame 
+
+- remove 'X' column 
+- add column for `date` which turns the `time_stamp` column into date format 
+- aggregate to daily values because every 2 hours is a lot of data! 
+
+```{r}
+# edit date to timestamp 
+purp_tidy <- purp_air %>% 
+  select(-X) %>% 
+  mutate(date = date(time_stamp)) %>%
+  select(-time_stamp) %>% 
+  group_by(date, sensor) %>% 
+  summarize_all(mean, na.rm=T)
+
+# check new 
+head(purp_tidy)
+
+nrow(purp_tidy)
+```
+
+## Define columns 
+
+- `time_stamp`
+- `humidity`
+- `voc`
+- `pm1.0_atm`
+- `pm2.5_atm`
+- `pm10.0_atm`
+- `sensor`
+
+## Preliminary plots 
+
+Creating time series with `ggplot`
+
+
+```{r}
+ggplot(purp_tidy, aes(x=date, y=pm10.0_atm, col=sensor)) +
+  geom_point() + ggtitle("PM10")
+
+ggplot(purp_tidy, aes(x=date, y=pm2.5_atm, col=sensor)) +
+  geom_point() +
+  facet_grid('sensor') +
+  geom_hline(aes(yintercept=35)) + ggtitle("PM2.5")
+
+ggplot(purp_tidy, aes(x=date, y=pm10.0_atm, col=sensor)) +
+  geom_point() +
+  facet_grid('sensor') + ggtitle("PM10")
+
+
+ggplot(purp_tidy, aes(x=date, y=voc, col=sensor)) +
+  geom_point() +
+  facet_grid('sensor') + ggtitle("VOC")
+
+ggplot(purp_tidy, aes(x=sensor, y=pm2.5_atm, col=sensor)) +
+  geom_boxplot() + ggtitle("PM2.5")
+
+```
+
+assuming units are in $\mu g/m^3$
+
+## what are levels of 'AQI'
+
+- create new column above or below threshold 
+- check AQI standards 
+- plot with lines to mark thresholds
+- discrete v. continuous data 

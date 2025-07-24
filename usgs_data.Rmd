@@ -1,0 +1,54 @@
+---
+title: "usgs_data"
+output: html_document
+date: "2025-07-14"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(readr)
+library(tidyverse)
+library(sf)
+library(lubridate)
+```
+
+## Exploring USGS data 
+
+[Link](https://www.sciencebase.gov/catalog/item/6400a064d34edc0ffaf4ef1b) to website with more info and metadata 
+
+
+### Spatial (table 1: site info)
+
+```{r}
+
+table1 <- read_delim("usgs/table1_site_info.csv", 
+     delim = "\t", escape_double = FALSE, 
+     trim_ws = TRUE)
+
+str(table1)
+
+table1$date = ymd(table1$`Sample_date_(yyyymmdd)`)
+
+format_time = paste0(substr(table1$`Sample_time_(HHMM)`, 1,2),
+                     ":",
+                     substr(table1$`Sample_time_(HHMM)`,3,4))
+
+table1$time = hm(format_time)
+
+table1$datetime = as_date(table1$date, table1$time)
+
+ggplot(table1) + 
+  geom_bar(aes(x=time, fill=Site_type)) + 
+  facet_grid('date')
+
+ggplot(table1) + 
+  geom_bar(aes(x=Site_type, fill=Site_type)) +
+  coord_flip()
+
+```
+
+
+### Table 3 Results 
+
+### Table 6 Microbio 
+

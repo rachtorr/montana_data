@@ -1,0 +1,1658 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Kristin M. Romanok</origin>
+        <origin>Paul M. Bradley</origin>
+        <origin>Kelly L. Smalling</origin>
+        <origin>John T. Doyle</origin>
+        <origin>Margaret J. Eggers</origin>
+        <origin>James L. Gray</origin>
+        <origin>Michelle L. Hladik</origin>
+        <origin>Leslie K. Kanagy</origin>
+        <origin>R. Blaine McCleskey</origin>
+        <origin>Shannon M. Meppelink</origin>
+        <origin>Crystal L. Richards</origin>
+        <origin>David A. Roth</origin>
+        <pubdate>20231027</pubdate>
+        <title>Target-chemical concentrations and microbiological results in surface water and tapwater, Montana, 2022</title>
+        <geoform>tabular digital data</geoform>
+        <pubinfo>
+          <pubplace>Denver, CO</pubplace>
+          <publish>U.S. Geological Survey</publish>
+        </pubinfo>
+        <othercit>Romanok, K.M., Bradley, P.M., Smalling, K.L., Doyle, J.T., Eggers, M.J., Gray, J.L., Hladik, M.L., Kanagy, L.K., McCleskey, R.B., Meppelink, S.M., Richards, C.L., and Roth, D.A., 2023, Target-chemical concentrations and microbiological results in surface water and tapwater, Montana, 2022: U.S. Geological Survey data release, https://doi.org/10.5066/P9R7MV6I</othercit>
+        <onlink>https://doi.org/10.5066/P9R7MV6I</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>This data release contains the concentration and quality-assurance results for inorganic constituents, as well as organic compounds (volatile organic compounds [VOC], per- and polyfluoroalkyl substances [PFAS], pesticides and disinfection byproducts [DBP]) and microbiological results collected in the Little Big Horn River and residential or commercial tapwater locations in Montana. Twenty-two tapwater samples (six sourced from public supply and 14 sourced from private wells) and six surface-water samples were collected in Montana between August 8-10, 2022. Pharmaceuticals, VOC, and PFAS were analyzed at the U.S. Geological Survey (USGS) National Water Quality Laboratory (NWQL) in Denver, Colorado. Pesticides and DBP were analyzed at the USGS Organic Chemistry Research Laboratory (OCRL) in Sacramento, California. Inorganic contaminants were analyzed at the USGS Redox Chemistry Laboratory (RCL) and the Analytical Trace Element Chemistry Laboratory (ATECL), Boulder, Colorado. Cyanotoxins were analyzed at the USGS Organic Geochemistry Research Laboratory (OGRL), Lawrence, Kansas. Microbiological pathogens were analyzed by the National Institute of Health/National Institute of Allergy and Infections Disease, Rocky Mountain Laboratory, Hamilton, Montana.</abstract>
+      <purpose>This project is part of the U.S. Geological Survey, Ecosystems Mission Area, Environmental Health Program, Tapwater Exposure study. Data were collected to provide a 'snapshot' into potential human-health exposures from tapwater sources. Samples were collected to provide additional lines of evidence that monitoring of tapwater from private groundwater wells and public-supply sources is necessary to protect against exposure to a mixture of chemical contaminants. Surface-water samples from the Little Big Horn River were evaluated to assess the interaction between the river and shallow groundwater wells located nearby.</purpose>
+      <supplinf>Tables were generated in Microsoft Excel and should be imported as tab-delimited text (.txt) files to maintain the integrity of values (no loss of leading or trailing zeros).</supplinf>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <rngdates>
+          <begdate>20220808</begdate>
+          <enddate>20220810</enddate>
+        </rngdates>
+      </timeinfo>
+      <current>ground condition</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>None planned</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-116.5430</westbc>
+        <eastbc>-103.5352</eastbc>
+        <northbc>48.8647</northbc>
+        <southbc>44.2137</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>ISO 19115 Topic Category</themekt>
+        <themekey>geoscientificInformation</themekey>
+        <themekey>environment</themekey>
+        <themekey>health</themekey>
+      </theme>
+      <theme>
+        <themekt>USGS Thesaurus</themekt>
+        <themekey>water quality</themekey>
+        <themekey>environmental health (human)</themekey>
+        <themekey>drinking water use</themekey>
+      </theme>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>point-of-use exposure</themekey>
+        <themekey>tapwater</themekey>
+        <themekey>surface water</themekey>
+        <themekey>organic contaminants</themekey>
+        <themekey>inorganic analytes</themekey>
+      </theme>
+      <theme>
+        <themekt>USGS Metadata Identifier</themekt>
+        <themekey>USGS:6400a064d34edc0ffaf4ef1b</themekey>
+      </theme>
+      <place>
+        <placekt>Common geographic areas</placekt>
+        <placekey>Montana</placekey>
+        <placekey>United States</placekey>
+      </place>
+    </keywords>
+    <accconst>None. Please see 'Distribution Info' for details.</accconst>
+    <useconst>None. Users are advised to read the dataset's metadata thoroughly to understand appropriate use and data limitations.</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntper>Kristin Romanok</cntper>
+          <cntorg>U.S. Geological Survey, Northeast Region</cntorg>
+        </cntperp>
+        <cntpos>Hydrologist</cntpos>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <address>3450 Princeton Pike, Suite 110</address>
+          <city>Lawrenceville</city>
+          <state>NJ</state>
+          <postal>08648</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>609-771-3952</cntvoice>
+        <cntfax>609-771-3915</cntfax>
+        <cntemail>kromanok@usgs.gov</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <datacred>This work was funded by the Ecosystems Mission Area, Environmental Health Program, with support from the Division of Intramural Research, National Institute of Allergy and Infectious Disease, National Institute of Health, Bethesda, Maryland.</datacred>
+    <native>Tables were generated in Microsoft Excel, and should be imported as tab-delimited text (.txt) files to maintain the integrity of values (no loss of leading zeros).</native>
+    <crossref>
+      <citeinfo>
+        <origin>U.S. Geological Survey</origin>
+        <pubdate>2018</pubdate>
+        <title>General introduction for the “National Field Manual for the Collection of Water-Quality Data”</title>
+        <geoform>publication</geoform>
+        <serinfo>
+          <sername>U.S. Geological Survey Techniques and Methods</sername>
+          <issue>book 9, chap. A0, 4 p.</issue>
+        </serinfo>
+        <pubinfo>
+          <pubplace>Reston, VA</pubplace>
+          <publish>U.S. Geological Survey</publish>
+        </pubinfo>
+        <othercit>Supersedes USGS Techniques and Methods,book 9, chap. A0, version 1.0.</othercit>
+        <onlink>https://doi.org/10.3133/tm9A0</onlink>
+      </citeinfo>
+    </crossref>
+    <crossref>
+      <citeinfo>
+        <origin>Marvin J. Fishman</origin>
+        <origin>Linda C. Friedman</origin>
+        <pubdate>1989</pubdate>
+        <title>Methods for determination of inorganic substances in water and fluvial sediments</title>
+        <edition>Third edition</edition>
+        <geoform>publication</geoform>
+        <serinfo>
+          <sername>Techniques of Water-Resources Investigations</sername>
+          <issue>5-A1</issue>
+        </serinfo>
+        <pubinfo>
+          <pubplace>Reston, VA</pubplace>
+          <publish>U.S. Geological Survey</publish>
+        </pubinfo>
+        <onlink>https://pubs.usgs.gov/twri/twri5-a1/pdf/TWRI_5-A1.pdf</onlink>
+      </citeinfo>
+    </crossref>
+    <crossref>
+      <citeinfo>
+        <origin>U.S. Environmental Protection Agency</origin>
+        <pubdate>2018</pubdate>
+        <title>Inductively coupled plasma-optical emission spectrometry, method 6010D</title>
+        <edition>Revision 5</edition>
+        <geoform>publication</geoform>
+        <pubinfo>
+          <pubplace>Washington D.C.</pubplace>
+          <publish>U.S. Environmental Protection Agency</publish>
+        </pubinfo>
+        <onlink>https://www.epa.gov/sites/default/files/2015-12/documents/6010d.pdf</onlink>
+      </citeinfo>
+    </crossref>
+    <crossref>
+      <citeinfo>
+        <origin>R. Blaine McCleskey</origin>
+        <origin>D. Kirk Nordstrom</origin>
+        <origin>James W. Ball</origin>
+        <pubdate>2003</pubdate>
+        <title>Metal interferences and their removal prior to the determination of As(T) and As(III) in acid mine waters by hydride generation atomic absorption spectrometry</title>
+        <geoform>publication</geoform>
+        <serinfo>
+          <sername>Water-Resources Investigations Report</sername>
+          <issue>2003-4117</issue>
+        </serinfo>
+        <pubinfo>
+          <pubplace>Boulder, Colorado</pubplace>
+          <publish>U.S. Geological Survey</publish>
+        </pubinfo>
+        <onlink>https://doi.org/10.3133/wri034117</onlink>
+      </citeinfo>
+    </crossref>
+    <crossref>
+      <citeinfo>
+        <origin>Terry I. Brinton</origin>
+        <origin>Ronald C. Antweiler</origin>
+        <origin>Howard E. Taylor</origin>
+        <pubdate>1996</pubdate>
+        <title>Method for the determination of dissolved chloride, nitrate, and sulfate in natural water using ion chromatography</title>
+        <geoform>publication</geoform>
+        <serinfo>
+          <sername>Open-File Report</sername>
+          <issue>95-426A</issue>
+        </serinfo>
+        <pubinfo>
+          <pubplace>Reston, VA</pubplace>
+          <publish>U.S. Geological Survey</publish>
+        </pubinfo>
+        <onlink>https://doi.org/10.3133/ofr95426A</onlink>
+      </citeinfo>
+    </crossref>
+    <crossref>
+      <citeinfo>
+        <origin>James W. Ball</origin>
+        <origin>R. Blaine McCleskey</origin>
+        <pubdate>2003</pubdate>
+        <title>A new cation-exchange method for accurate field speciation of hexavalent chromium</title>
+        <geoform>publication</geoform>
+        <serinfo>
+          <sername>Water Resources Investigations Report</sername>
+          <issue>03-4018</issue>
+        </serinfo>
+        <pubinfo>
+          <pubplace>Boulder, CO</pubplace>
+          <publish>U.S. Geological Survey</publish>
+        </pubinfo>
+        <onlink>https://wwwbrr.cr.usgs.gov/projects/GWC_chemtherm/pubs/WRIR%2003-4018.pdf</onlink>
+      </citeinfo>
+    </crossref>
+    <crossref>
+      <citeinfo>
+        <origin>R.L. Hergenreder</origin>
+        <pubdate>2011</pubdate>
+        <title>Trace metals in waters by GFAAS, in accordance with U.S. EPA and Health Canada Requirements</title>
+        <geoform>publication</geoform>
+        <pubinfo>
+          <pubplace>Shelton, Conn.</pubplace>
+          <publish>PerkinElmer, Inc.</publish>
+        </pubinfo>
+        <onlink>https://resources.perkinelmer.com/lab-solutions/resources/docs/PinAAcleTraceMetalsinWaterbyGFAAAppNote.pdf</onlink>
+      </citeinfo>
+    </crossref>
+    <crossref>
+      <citeinfo>
+        <origin>D.A. Roth</origin>
+        <origin>M.O. Johnson</origin>
+        <origin>R.B. McCleskey</origin>
+        <origin>M.L. Riskin</origin>
+        <origin>P.A. Blizni</origin>
+        <pubdate>2022</pubdate>
+        <title>Evaluation of preservation techniques for trace metals and major cations for surface waters collected from the U.S. Geological Survey's National Water Quality Network Sites</title>
+        <geoform>tabular digital data and .pdf files</geoform>
+        <pubinfo>
+          <pubplace>Denver, CO</pubplace>
+          <publish>U.S. Geological Survey</publish>
+        </pubinfo>
+        <onlink>https://doi.org/10.5066/P9SMPZ3M</onlink>
+      </citeinfo>
+    </crossref>
+    <crossref>
+      <citeinfo>
+        <origin>Michelle L. Hladik</origin>
+        <origin>Michael J. Focazio</origin>
+        <origin>Mark Engle</origin>
+        <pubdate>2014</pubdate>
+        <title>Discharges of produced waters from oil and gas extraction via wastewater treatment plants are sources of disinfection by-products to receiving streams</title>
+        <geoform>publication</geoform>
+        <serinfo>
+          <sername>Science of The Total Environment</sername>
+          <issue>vol. 466-467</issue>
+        </serinfo>
+        <pubinfo>
+          <pubplace>Amsterdam, Netherlands</pubplace>
+          <publish>Elsevier BV</publish>
+        </pubinfo>
+        <othercit>p. 1085-1093</othercit>
+        <onlink>https://doi.org/10.1016/j.scitotenv.2013.08.008</onlink>
+      </citeinfo>
+    </crossref>
+    <crossref>
+      <citeinfo>
+        <origin>Donna L. Rose</origin>
+        <origin>Mark W. Sandstrom</origin>
+        <origin>Lucinda K. Murtagh</origin>
+        <pubdate>2016</pubdate>
+        <title>Determination of heat purgeable and ambient purgeable volatile organic compounds in water by gas chromatography/mass spectrometry</title>
+        <geoform>publication</geoform>
+        <serinfo>
+          <sername>Techniques and Methods</sername>
+          <issue>5-B12</issue>
+        </serinfo>
+        <pubinfo>
+          <pubplace>Reston, VA</pubplace>
+          <publish>U.S. Geological Survey</publish>
+        </pubinfo>
+        <onlink>https://doi.org/10.3133/tm5B12</onlink>
+      </citeinfo>
+    </crossref>
+    <crossref>
+      <citeinfo>
+        <origin>Edward T. Furlong</origin>
+        <origin>Mary C. Noriega</origin>
+        <origin>Christopher J. Kanagy</origin>
+        <origin>Leslie K. Kanagy</origin>
+        <origin>Laura J. Coffey</origin>
+        <origin>Mark R. Burkhardt</origin>
+        <pubdate>2014</pubdate>
+        <title>Determination of human-use pharmaceuticals in filtered water by direct aqueous injection: high-performance liquid chromatography/tandem mass spectrometry</title>
+        <geoform>publication</geoform>
+        <serinfo>
+          <sername>Techniques and Methods</sername>
+          <issue>5-B10</issue>
+        </serinfo>
+        <pubinfo>
+          <pubplace>Reston, VA</pubplace>
+          <publish>U.S. Geological Survey</publish>
+        </pubinfo>
+        <onlink>https://doi.org/10.3133/tm5B10</onlink>
+      </citeinfo>
+    </crossref>
+    <crossref>
+      <citeinfo>
+        <origin>Dana W. Kolpin</origin>
+        <origin>Laura E. Hubbard</origin>
+        <origin>David M. Cwiertny</origin>
+        <origin>Shannon M. Meppelink</origin>
+        <origin>Darrin A. Thompson</origin>
+        <origin>James L. Gray</origin>
+        <pubdate>20211012</pubdate>
+        <title>A Comprehensive Statewide Spatiotemporal Stream Assessment of Per- and Polyfluoroalkyl Substances (PFAS) in an Agricultural Region of the United States</title>
+        <geoform>publication</geoform>
+        <serinfo>
+          <sername>Environmental Science and Technology Letters</sername>
+          <issue>vol. 8, issue 11</issue>
+        </serinfo>
+        <pubinfo>
+          <pubplace>Washington, D.C.</pubplace>
+          <publish>American Chemical Society (ACS)</publish>
+        </pubinfo>
+        <othercit>p. 981-988</othercit>
+        <onlink>https://doi.org/10.1021/acs.estlett.1c00750</onlink>
+      </citeinfo>
+    </crossref>
+    <crossref>
+      <citeinfo>
+        <origin>M.S. Gross</origin>
+        <origin>C.J. Sanders</origin>
+        <origin>M.D. De Parsia</origin>
+        <origin>M.L. Hladik</origin>
+        <pubdate>2023</pubdate>
+        <title>A multiresidue method for the analysis of pesticides in water using solid-phase extraction with gas and liquid chromatography-tandem mass spectrometry</title>
+        <edition>ver 2.0, April 2023</edition>
+        <geoform>tabular digital data and CVS files</geoform>
+        <pubinfo>
+          <pubplace>Reston, VA</pubplace>
+          <publish>U.S. Geological Survey</publish>
+        </pubinfo>
+        <onlink>https://doi.org/10.5066/P9J8E544</onlink>
+      </citeinfo>
+    </crossref>
+    <crossref>
+      <citeinfo>
+        <origin>Gold Standard Diagnostics Horsham Inc.</origin>
+        <pubdate>2020</pubdate>
+        <title>Glyphosate, ELISA, 96-test</title>
+        <geoform>publication</geoform>
+        <othercit>Instructions for the method for analyzing Glyphosate by ELISA can be found within the text kit at https://www.goldstandarddiagnostics.us/home/products/rapid-test-kits/pesticides-herbicides/pesticide-elisa-plate-kits/glyphosate-elisa-96-test/</othercit>
+        <onlink>https://www.goldstandarddiagnostics.us/home/products/rapid-test-kits/pesticides-herbicides/pesticide-elisa-plate-kits/glyphosate-elisa-96-test/</onlink>
+      </citeinfo>
+    </crossref>
+    <crossref>
+      <citeinfo>
+        <origin>Kristin M. Romanok</origin>
+        <origin>Dana W. Kolpin</origin>
+        <origin>Shannon M. Meppelink</origin>
+        <origin>Maria Argos</origin>
+        <origin>Juliane B. Brown</origin>
+        <origin>Michael J. Devito</origin>
+        <origin>Julie E. Dietze</origin>
+        <origin>Carrie E. Givens</origin>
+        <origin>James L. Gray</origin>
+        <origin>Christopher P. Higgins</origin>
+        <origin>Michelle L. Hladik</origin>
+        <origin>Luke R. Iwanowicz</origin>
+        <origin>Keith A. Loftin</origin>
+        <origin>R. Blaine McCleskey</origin>
+        <origin>Carrie A. McDonough</origin>
+        <origin>Michael T. Meyer</origin>
+        <origin>Mark J. Strynar</origin>
+        <origin>Christopher P. Weis</origin>
+        <origin>Vickie S. Wilson</origin>
+        <origin>Paul M. Bradley</origin>
+        <pubdate>2018</pubdate>
+        <title>Methods used for the collection and analysis of chemical and biological data for the Tapwater Exposure Study, United States, 2016-17</title>
+        <geoform>publication</geoform>
+        <serinfo>
+          <sername>Open-File Report</sername>
+          <issue>2018-1098</issue>
+        </serinfo>
+        <pubinfo>
+          <pubplace>Reston, VA</pubplace>
+          <publish>U.S. Geological Survey</publish>
+        </pubinfo>
+        <onlink>https://doi.org/10.3133/ofr20181098</onlink>
+      </citeinfo>
+    </crossref>
+    <crossref>
+      <citeinfo>
+        <origin>Pfaff, John D.</origin>
+        <pubdate>1993</pubdate>
+        <title>Method 300.0 Determination of inorganic anions by ion chromatography</title>
+        <edition>Revision 2.1</edition>
+        <geoform>publication</geoform>
+        <pubinfo>
+          <pubplace>Cincinnati, Ohio</pubplace>
+          <publish>U.S. Environmental Protection Ageny</publish>
+        </pubinfo>
+        <othercit>Environmental Monitoring Systems Laboratory, Office of Research and Development</othercit>
+        <onlink>https://www.epa.gov/sites/default/files/2015-08/documents/method_300-0_rev_2-1_1993.pdf</onlink>
+      </citeinfo>
+    </crossref>
+    <crossref>
+      <citeinfo>
+        <origin>HACH</origin>
+        <pubdate>1999</pubdate>
+        <title>Coliforms: Membrane Filtration (simultaneous detection), EPA Approved Method 10029</title>
+        <geoform>publication</geoform>
+        <pubinfo>
+          <pubplace>Loveland, CO</pubplace>
+          <publish>HACH Company</publish>
+        </pubinfo>
+        <othercit>HACH, 1999, Coliforms: Membrane Filtration (simultaneous detection), EPA Approved Method 10029, accessed July 6, 2023, at https://files.knowyourh2o.com/Waterlibrary/watermanual/MCOLI.PDF.</othercit>
+        <onlink>https://files.knowyourh2o.com/Waterlibrary/watermanual/MCOLI.PDF.</onlink>
+      </citeinfo>
+    </crossref>
+    <crossref>
+      <citeinfo>
+        <origin>National Environmental Method Index</origin>
+        <pubdate>1999</pubdate>
+        <title>Hach Co. 10029: E.Coli by m-Coliblue24 Broth Procedure for Membrane Filtration</title>
+        <geoform>publication</geoform>
+        <pubinfo>
+          <pubplace>Loveland, CO</pubplace>
+          <publish>HACH Company</publish>
+        </pubinfo>
+        <othercit>National Environmental Method Index [NEMI], 1999, Hach Co. 10029: E.Coli by m-Coliblue24 Broth Procedure for Membrane Filtration, accessed July 6, 2023, at https://www.nemi.gov/methods/method_summary/5577/.</othercit>
+        <onlink>https://www.nemi.gov/methods/method_summary/5577/</onlink>
+      </citeinfo>
+    </crossref>
+    <crossref>
+      <citeinfo>
+        <origin>American Type Culture Collection</origin>
+        <pubdate>2023</pubdate>
+        <title>ATCC</title>
+        <geoform>website</geoform>
+        <othercit>Environmental isolates of E. coli and Klebsiella pneumoniae obtained from the American Type Culture Collection (ATCC, 2023) as positive controls. American Type Culture Collection (ATTC), 2023, accessed on July 6, 2023, at https://www.atcc.org.</othercit>
+        <onlink>https://www.atcc.org</onlink>
+      </citeinfo>
+    </crossref>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>Data included in these tables were quality assured through comparison with original data either provided by the laboratories or with outputs from NWIS database (NWIS, 2019), to be sure no transcription errors occurred, and evaluated against field blanks and surrogate data, where available. Three field blanks were collected and results are summarized in the text file MTTW2022_Table4_QA_FieldBlanks.txt included in this data release. Stable isotope recovery surrogates for DBP, PFAS, VOC, pesticides and pharmaceuticals were used to evaluate method performance and are summarized in the text file MTTW2022_Table5_QA_SurrogateSummary.txt included in this data release.
+Reference cited: 
+U.S. Geological Survey, 2019, USGS Water Data for the Nation: U.S. Geological Survey National Water Information System (NWIS) web interface, accessed July 12, 2022, at https://doi.org/10.5066/F7P55KJN.</attraccr>
+    </attracc>
+    <logic>Data is deemed to be accurate as reviewed for logical consistency.</logic>
+    <complete>Dataset is considered complete for the information presented, as described in the abstract. Users are advised to read the rest of the metadata record for additional details.</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>No formal positional accuracy tests were conducted.</horizpar>
+      </horizpa>
+      <vertacc>
+        <vertaccr>No formal positional accuracy tests were conducted.</vertaccr>
+      </vertacc>
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>U.S. Geological Survey</origin>
+            <pubdate>2019</pubdate>
+            <title>USGS Water Data for the Nation: U.S. Geological Survey National Water Information System web interface (NWIS)</title>
+            <geoform>dataset</geoform>
+            <pubinfo>
+              <pubplace>Reston, VA</pubplace>
+              <publish>U.S. Geological Survey</publish>
+            </pubinfo>
+            <onlink>https://doi.org/10.5066/F7P55KJN</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>Digital</typesrc>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+              <begdate>20190819</begdate>
+              <enddate>20190828</enddate>
+            </rngdates>
+          </timeinfo>
+          <srccurr>publication date</srccurr>
+        </srctime>
+        <srccitea>NWIS</srccitea>
+        <srccontr>dataset</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>U.S. Geological Survey</origin>
+            <pubdate>2020</pubdate>
+            <title>National field manual for the collection of water-quality data</title>
+            <geoform>publication</geoform>
+            <serinfo>
+              <sername>Techniques of Water-Resources Investigations</sername>
+              <issue>book 9, Chap. A1-A10</issue>
+            </serinfo>
+            <pubinfo>
+              <pubplace>Reston, VA</pubplace>
+              <publish>U.S. Geological Survey</publish>
+            </pubinfo>
+            <onlink>https://doi.org/10.3133/twri09</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>Digital and/or Hardcopy</typesrc>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+              <begdate>20220808</begdate>
+              <enddate>20220810</enddate>
+            </rngdates>
+          </timeinfo>
+          <srccurr>publication date</srccurr>
+        </srctime>
+        <srccitea>USGS (variously dated)</srccitea>
+        <srccontr>Method</srccontr>
+      </srcinfo>
+      <procstep>
+        <procdesc>Twenty-two tapwater and six surface-water samples were collected in Montana, 2022. Water-quality sample collection methods and laboratory analyses methods are described in Romanok and others (2018). Results prepared by participating laboratories were provided to project staff through electronic transmission and verified and quality assured by project leads. Data files were compiled and finalized for publication after quality assurance. All analytical methods are outlined in MTTW2022_Table2_MethodsInformation.txt included in this data release. Full citations can be found in the cross-reference section of this metadata, with the exception of the microbiological indicators, which is described here. 
+
+Fecal coliform and heterotrophic bacteria enumeration:
+Fecal indicator bacteria were quantified for all tapwater and surface-water samples using standard U.S. Environmental Protection Agency methodologies as described here. The presence of fecal contamination was determined by growth on the selective and differential m-Coliblue24 broth (HACH, 1999 and NEMI, 1999). This medium was used to culture coliform bacteria and differentiate Escherichia coli (E.coli) by using an enzymatic indicator. One hundred, ten, and one milliliter(s) (ml) from all samples and appropriate dilutions were filtered and the filter was placed on a pad soaked with 2 ml of the Coliblue24 broth. The filters were incubated at 37 degrees Celsius and growth was observed at 24 hours. Post-flush water samples were collected in triplicate and each replicate was analyzed separately. Sterile water was filtered as a negative control, and sterile water was inoculated with environmental isolates of E. coli and Klebsiella pneumoniae obtained from the American Type Culture Collection (ATCC, 2023) as positive controls. To enumerate heterotrophic plate count bacteria, serial dilutions of water were plated on R2A agar medium and incubated at 30 degrees Celsius for 2 weeks.
+
+NOTE: All tables should be opened as tab-delimited text (.txt) files to preserve the integrity of station identification numbers and any leading or trailing zeros. 
+
+References cited: 
+HACH, 1999, Coliforms: Membrane Filtration (simultaneous detection), EPA Approved Method 10029, accessed July 6, 2023, at https://files.knowyourh2o.com/Waterlibrary/watermanual/MCOLI.PDF.
+
+National Environmental Method Index [NEMI], 1999, Hach Co. 10029: E.Coli by m-Coliblue24 Broth Procedure for Membrane Filtration, accessed July 6, 2023, at https://www.nemi.gov/methods/method_summary/5577/.
+
+American Type Culture Collection (ATTC), 2023, accessed on July 6, 2023, at https://www.atcc.org/.
+
+Romanok, K.M., Kolpin, D.W., Meppelink, S.M., Argos, M., Brown, J.B., DeVito, M.J., Dietze, J.E., Givens, C.E., Gray, J.L., Higgins, C.P., Hladik, M.L., Iwanowicz, L.R., Loftin, K.A., McCleskey, R.B., McDonough, C.A., Meyer, M.T., Strynar, M.J., Weis, C.P., Wilson, V.S., and Bradley, P.M., 2018, Methods used for the collection and analysis of chemical and biological data for the Tapwater Exposure Study, United States, 2016-17: U.S. Geological Survey Open-File Report 2018-1098, 79 p., accessed May 4, 2022, at https://doi.org/10.3133/ofr20181098.</procdesc>
+        <procdate>2023</procdate>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>MTTW2022_Table1_SiteInformation.txt</enttypl>
+        <enttypd>Table 1. Site information for samples collected as part of the U.S. Geological Survey (USGS), Environmental Health Program, Tapwater Exposure Study, Montana, 2022.</enttypd>
+        <enttypds>U.S. Geological Survey</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>USGS_station_number</attrlabl>
+        <attrdef>U.S. Geological Survey station identification number, preceded by 'T' to keep integrity of value.</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <udom>NWIS Station identifier</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>USGS_station_name</attrlabl>
+        <attrdef>U.S. Geological Survey NWIS station name</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <udom>U.S. Geological Survey station name</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Sample_date_(yyyymmdd)</attrlabl>
+        <attrdef>Date of sample collection</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>20220808</rdommin>
+            <rdommax>20220810</rdommax>
+            <attrunit>Date, yyyy, year; mm, month; dd, day</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Sample_time_(HHMM)</attrlabl>
+        <attrdef>Time of sample collection</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0750</rdommin>
+            <rdommax>1340</rdommax>
+            <attrunit>Time, H,military-hour; M, minute</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Site_type</attrlabl>
+        <attrdef>Description of water-quality sample location type</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Public supply</edomv>
+            <edomvd>Tapwater sourced from public supply</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Private well</edomv>
+            <edomvd>Tapwater sourced from private well</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Surface water</edomv>
+            <edomvd>Non-potable stream sample</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Medium_code</attrlabl>
+        <attrdef>Type of sample</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>WG</edomv>
+            <edomvd>Ground water (private well)</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>WS</edomv>
+            <edomvd>Surface water</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>WT</edomv>
+            <edomvd>Treated water (public supply)</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+    </detailed>
+    <detailed>
+      <enttyp>
+        <enttypl>MTTW2022_Table2_MethodsInformation.txt</enttypl>
+        <enttypd>Table 2. Method information for analytes sampled for the U.S. Geological Survey (USGS), Environmental Health Program, Tapwater Exposure Study, Montana, 2022.</enttypd>
+        <enttypds>U.S. Geological Survey</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>Parameter_name</attrlabl>
+        <attrdef>List of compounds analyzed for this study</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <udom>Inorganic and organic compounds analyzed for this study.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>NWIS_parameter_code</attrlabl>
+        <attrdef>National Water Information System (NWIS) 5-digit code parameter code</attrdef>
+        <attrdefs>NWIS (https://doi.org/10.5066/F7P55KJN)</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>--</edomv>
+            <edomvd>Information not available or not applicable</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <udom>For more information refer to: https://nwis.waterdata.usgs.gov/usa/nwis/pmcodes.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>CASRN</attrlabl>
+        <attrdef>Chemical Abstract Service Registry Numbers for associated compound or analyte listed in column 1</attrdef>
+        <attrdefs>CASRN definitions available at https://commonchemistry.cas.org/?_ga=2.268858289.111681852.1682955224-1720481698.1682955224, accessed on May 1, 2023.</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>--</edomv>
+            <edomvd>information not available</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <codesetd>
+            <codesetn>CAS</codesetn>
+            <codesets>American Chemical Society, 2022, Chemical Abstract Service database, https://www.cas.org/cas-data/cas-registry</codesets>
+          </codesetd>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Analyzing_laboratory</attrlabl>
+        <attrdef>Laboratory that performed analysis of compound listed in column 1</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Field personnel</edomv>
+            <edomvd>Measurements taken during sampling</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>RCL</edomv>
+            <edomvd>U.S. Geological Survey Redox Chemistry Laboratory in Boulder, Colorado</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>ATECL</edomv>
+            <edomvd>U.S. Geological Survey Analytical Trace Element Chemistry Laboratory in Boulder, Colorado</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>NWQL</edomv>
+            <edomvd>U.S. Geological Survey National Water Quality Laboratory in Denver, Colorado</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>OCRL</edomv>
+            <edomvd>U.S. Geological Survey Organic Chemistry Research Laboratory in Sacramento, California</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>NIH/NIAID</edomv>
+            <edomvd>National Institutes of Health/National Institute of Allergy and Infectious Diseases, Rocky Mountain Laboratories, Hamilton, Montana</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Common_primary_use_group</attrlabl>
+        <attrdef>General description of compound or analyte listed in column 1</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <udom>Description of type of compound listed in column 1.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Method</attrlabl>
+        <attrdef>Method used in laboratory analyses</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Multi-parameter sonde</edomv>
+            <edomvd>Meter used in field for pH, temperature, and specific conductance</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Fixed endpoint</edomv>
+            <edomvd>Fixed endpoint titration</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>ICP-OES</edomv>
+            <edomvd>inductively coupled plasma-optical emission spectrometry</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>GFAAS</edomv>
+            <edomvd>graphite furnace atomic absorption spectroscopy</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>IC</edomv>
+            <edomvd>ion chromatography</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>ICP-MS</edomv>
+            <edomvd>inductively coupled plasma-mass spectrometry</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>LC/MS-MS</edomv>
+            <edomvd>liquid chromatography-tandem mass spectrometry</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>GC/MS</edomv>
+            <edomvd>gas chromatography, mass spectrometry</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>ELISA</edomv>
+            <edomvd>enzyme linked immunosorbent assay for algal toxins</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>R2A agar</edomv>
+            <edomvd>Reasoner's 2A agar</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Coliblue24 broth</edomv>
+            <edomvd>Membrane filtration method using m-Coliblue24 broth</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Method_of_quantitation</attrlabl>
+        <attrdef>Method used to determine reporting level</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>--</edomv>
+            <edomvd>not applicable</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>MDL</edomv>
+            <edomvd>method detection limit</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>LT-MDL</edomv>
+            <edomvd>long term-method detection limit</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>IRL</edomv>
+            <edomvd>interim reporting level</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>RLDQC</edomv>
+            <edomvd>reporting limit by DQCALC program</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>MRL</edomv>
+            <edomvd>minimum reporting level</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Count</edomv>
+            <edomvd>number of colonies counted per volume</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Detection_limit</attrlabl>
+        <attrdef>Lowest concentration constituent is detected</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>--</edomv>
+            <edomvd>information not available</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <udom>Lowest level at which compound from column 1 would be detected, as per method.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Reporting_limit</attrlabl>
+        <attrdef>Lowest concentration constituent is reported</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <udom>Lowest level at which compound from column 1 would be reported, as per method. Reporting limit reflected in MTTW2022_Table3_Results, which are established by analyzing laboratory, may have been adjusted (increased) due to internal laboratory quality-assurance issues, such as poor surrogate recovery response.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Units_of_measurement</attrlabl>
+        <attrdef>Units of measurement for which results are reported</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>deg C</edomv>
+            <edomvd>Degrees Celsius</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>uS/cm @ 25C</edomv>
+            <edomvd>microsiemens per centimeter at 25 degrees Celsius</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>standard units</edomv>
+            <edomvd>standard units</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>mg/L as CaCO3</edomv>
+            <edomvd>milligrams per liter as calcium carbonate</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>ug/L</edomv>
+            <edomvd>micrograms per liter</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>mg/L</edomv>
+            <edomvd>milligrams per liter</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>ug/L as Cr</edomv>
+            <edomvd>micrograms per liter as chromium</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>mg/L as N</edomv>
+            <edomvd>milligrams per liter as nitrogen</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>ng/L</edomv>
+            <edomvd>nanograms per liter</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>CFU/mL</edomv>
+            <edomvd>colony forming units per milliliter</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>CFU/100mL</edomv>
+            <edomvd>colony forming units per 100 milliliters</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Method_citation</attrlabl>
+        <attrdef>References for laboratory analyses used</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <udom>Refer to Cross Reference and Source sections of this metadata file for citation information details.</udom>
+        </attrdomv>
+      </attr>
+    </detailed>
+    <detailed>
+      <enttyp>
+        <enttypl>MTTW2022_Table3_Results.txt</enttypl>
+        <enttypd>Table 3. Concentration results for organic and inorganic compounds analyzed for the U.S. Geological Survey (USGS), Environmental Health Program, Tapwater Exposure Study, Montana, 2022.</enttypd>
+        <enttypds>U.S. Geological Survey</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>USGS_station_number</attrlabl>
+        <attrdef>U.S. Geological Survey station identification number, preceded by 'T' to keep integrity of value.</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <udom>NWIS Station identifier</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Sample_date_(yyyymmdd)</attrlabl>
+        <attrdef>Date of sample collection</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>20220808</rdommin>
+            <rdommax>20220810</rdommax>
+            <attrunit>Date, yyyy, year; mm, month; dd, day</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Sample_time_(HHMM)</attrlabl>
+        <attrdef>Time of sample collection</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0750</rdommin>
+            <rdommax>1340</rdommax>
+            <attrunit>Time, H,military-hour; M, minute</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Medium_code</attrlabl>
+        <attrdef>Type of sample</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>WG</edomv>
+            <edomvd>Ground water (private well)</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>WS</edomv>
+            <edomvd>Surface water</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>WT</edomv>
+            <edomvd>Treated water (public supply)</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>NWIS_parameter_code</attrlabl>
+        <attrdef>National Water Information System (NWIS) 5-digit code parameter code</attrdef>
+        <attrdefs>NWIS (https://doi.org/10.5066/F7P55KJN)</attrdefs>
+        <attrdomv>
+          <udom>Refer to MTTW2022_Table2_MethodsInformation.txt for additional analytical details. For more information refer to https://nwis.waterdata.usgs.gov/usa/nwis/pmcodes.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Parameter_name</attrlabl>
+        <attrdef>Parameter name</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <udom>Refer to MTTW2022_Table2_MethodsInformation.txt for additional analytical details.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Remark_and_result</attrlabl>
+        <attrdef>Remark code and final result in units listed in column 8 (Units_of_measurement)</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>less than sign</edomv>
+            <edomvd>less than reporting limit</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>E</edomv>
+            <edomvd>estimated</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>r</edomv>
+            <edomvd>sample ruined in preparation</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>M</edomv>
+            <edomvd>presence verified but not quantified</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>u</edomv>
+            <edomvd>unable to determine, matrix interference</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Units_of_measurement</attrlabl>
+        <attrdef>Units of measurement for which results are reported</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>ug/L</edomv>
+            <edomvd>micrograms per liter</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>mg/L</edomv>
+            <edomvd>milligrams per liter</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>mg/L as CaCO3</edomv>
+            <edomvd>milligrams per liter as calcium carbonate</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>ug/L as Cr</edomv>
+            <edomvd>micrograms per liter as chromium</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>mg/L as N</edomv>
+            <edomvd>milligrams per liter as nitrogen</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>uS/cm @ 25C</edomv>
+            <edomvd>microsiemens per centimeter at 25 degrees Celsius</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>deg C</edomv>
+            <edomvd>degrees Celsius</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>ng/L</edomv>
+            <edomvd>nanograms per liter</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>standard units</edomv>
+            <edomvd>standard units</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Analyzing_laboratory</attrlabl>
+        <attrdef>Laboratory that performed analysis of compounds listed in column 6. Refer to MTTW2022_Table2_MethodsInformation.txt for additional analytical details.</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>RCL</edomv>
+            <edomvd>U.S. Geological Survey Redox Chemistry Laboratory in Boulder, Colorado</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>ATECL</edomv>
+            <edomvd>U.S. Geological Survey Analytical Trace Element Chemistry Laboratory in Boulder, Colorado</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>NWQL</edomv>
+            <edomvd>U.S. Geological Survey National Water Quality Laboratory in Denver, Colorado</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>OCRL</edomv>
+            <edomvd>U.S. Geological Survey Organic Chemistry Research Laboratory in Sacramento, California</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Field personnel</edomv>
+            <edomvd>Measurements taken during sampling</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+    </detailed>
+    <detailed>
+      <enttyp>
+        <enttypl>MTTW2022_Table4_QA_FieldBlanks.txt</enttypl>
+        <enttypd>Table 4. Quality-assurance field-blank detections collected for the U.S. Geological Survey (USGS), Environmental Health Program, Tapwater Exposure Study, Montana, 2022.</enttypd>
+        <enttypds>U.S. Geological Survey</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>USGS_station_number</attrlabl>
+        <attrdef>U.S. Geological Survey station identification number, preceded by 'T' to keep integrity of value.</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <udom>NWIS Station identifier</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Sample_date_(yyyymmdd)</attrlabl>
+        <attrdef>Date of sample collection</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>20220808</rdommin>
+            <rdommax>20220810</rdommax>
+            <attrunit>Date, yyyy, year; mm, month; dd, day</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Sample_time_(HHMM)</attrlabl>
+        <attrdef>Time of sample collection</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>1250</rdommin>
+            <rdommax>1430</rdommax>
+            <attrunit>Time, H,military-hour; M, minute</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>NWIS_parameter_code</attrlabl>
+        <attrdef>National Water Information System (NWIS) 5-digit code parameter code</attrdef>
+        <attrdefs>NWIS (https://doi.org/10.5066/F7P55KJN)</attrdefs>
+        <attrdomv>
+          <udom>Refer to MTTW2022_Table2_MethodsInformation.txt for additional analytical details. For more information refer to https://nwis.waterdata.usgs.gov/usa/nwis/pmcodes.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Parameter_name</attrlabl>
+        <attrdef>List of compounds analyzed for this study</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <udom>Refer to MTTW2022_Table2_MethodsInformation.txt for additional analytical details.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Remark_and_result</attrlabl>
+        <attrdef>Remark code and final result in units listed in column 7 (Units_of_measurement)</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0.001</rdommin>
+            <rdommax>3</rdommax>
+            <attrunit>Units listed in column 7 (Units_of_measurement)</attrunit>
+          </rdom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>E</edomv>
+            <edomvd>estimated value</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Units_of_measurement</attrlabl>
+        <attrdef>Units of measurement for which results are reported</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>ug/L</edomv>
+            <edomvd>micrograms per liter</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>ng/L</edomv>
+            <edomvd>nanograms per liter</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>mg/L</edomv>
+            <edomvd>milligrams per liter</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>mg/L CaCO3</edomv>
+            <edomvd>milligrams per liter as Calcium Carbonate</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Analyzing_laboratory</attrlabl>
+        <attrdef>Laboratory that performed analysis of compounds listed in column 5. Refer to MTTW2022_Table2_MethodsInformation.txt for additional analytical details.</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>RCL</edomv>
+            <edomvd>U.S. Geological Survey Redox Chemistry Laboratory in Boulder, Colorado</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>ATECL</edomv>
+            <edomvd>U.S. Geological Survey Analytical Trace Element Chemistry Laboratory in Boulder, Colorado</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>NWQL</edomv>
+            <edomvd>U.S. Geological Survey National Water Quality Laboratory, Denver, Colorado</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+    </detailed>
+    <detailed>
+      <enttyp>
+        <enttypl>MTTW2022_Table5_QA_SurrogateSummary.txt</enttypl>
+        <enttypd>Table 5. Quality assurance surrogate and internal dilution standard summary statistics (percent recoveries) for the U.S. Geological Survey (USGS), Environmental Health Program, Tapwater Exposure Study, Montana, 2022.</enttypd>
+        <enttypds>U.S. Geological Survey</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>Analyzing_laboratory</attrlabl>
+        <attrdef>Laboratory that performed analysis of compounds listed in column 2. Refer to MTTW2022_Table2_MethodsInformation.txt for additional analytical details.</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>NWQL</edomv>
+            <edomvd>U.S. Geological Survey National Water Quality Laboratory in Denver, Colorado</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>OCRL</edomv>
+            <edomvd>U.S. Geological Survey Organic Chemistry Research Laboratory in Sacramento, California</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Internal_dilution_standard_or_surrogate_compound</attrlabl>
+        <attrdef>Surrogate or internal dilution standard used for internal laboratory quality assurance.</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <udom>Surrogate or internal dilution standard used for internal laboratory quality assurance. E, estimated value</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Minimum_(percent)</attrlabl>
+        <attrdef>Minimum percent recovery for listed surrogate of internal dilution standard</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>1.3</rdommin>
+            <rdommax>100</rdommax>
+            <attrunit>percent</attrunit>
+          </rdom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>E</edomv>
+            <edomvd>Estimated</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>25th_percentile</attrlabl>
+        <attrdef>Interquartile range for listed surrogate of internal dilution standard: 25th percent</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>2.45</rdommin>
+            <rdommax>105</rdommax>
+            <attrunit>percent</attrunit>
+          </rdom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>E</edomv>
+            <edomvd>Estimated</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Median_(percent)</attrlabl>
+        <attrdef>Median percent recovery for listed surrogate of internal dilution standard</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>4.1</rdommin>
+            <rdommax>111</rdommax>
+            <attrunit>percent</attrunit>
+          </rdom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>E</edomv>
+            <edomvd>Estimated</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>75th_percentile</attrlabl>
+        <attrdef>Interquartile range for listed surrogate of internal dilution standard: 75th percent</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>6.9</rdommin>
+            <rdommax>117</rdommax>
+            <attrunit>percent</attrunit>
+          </rdom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>E</edomv>
+            <edomvd>Estimated</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Maximum_(percent)</attrlabl>
+        <attrdef>Maximum percent recovery for listed surrogate of internal dilution standard</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>15.9</rdommin>
+            <rdommax>125</rdommax>
+            <attrunit>percent</attrunit>
+          </rdom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>E</edomv>
+            <edomvd>Estimated</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+    </detailed>
+    <detailed>
+      <enttyp>
+        <enttypl>MTTW2022_Table6_Microbiology.txt</enttypl>
+        <enttypd>Table 6. Microbiological results for samples collected as part of the U.S. Geological Survey (USGS) Environmental Health Program, Tapwater Exposure Study, Montana, 2022.</enttypd>
+        <enttypds>U.S. Geological Survey; see disclaimer at end of this metadata regarding these results.</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>USGS_station_number</attrlabl>
+        <attrdef>U.S. Geological Survey station identification number, preceded by 'T' to keep integrity of value.</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <udom>NWIS Station identifier</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Sample_date_(yyyymmdd)</attrlabl>
+        <attrdef>Date of sample collection</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>20220808</rdommin>
+            <rdommax>20220810</rdommax>
+            <attrunit>Date, yyyy, year; mm, month; dd, day</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Sample_time_(HHMM)</attrlabl>
+        <attrdef>Time of sample collection</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0750</rdommin>
+            <rdommax>1340</rdommax>
+            <attrunit>Time, H,military-hour; M, minute</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Site_type</attrlabl>
+        <attrdef>Description of water-quality sample location type</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Public supply</edomv>
+            <edomvd>Tapwater sourced from public supply</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Private well</edomv>
+            <edomvd>Tapwater sourced from private well</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Surface water</edomv>
+            <edomvd>Non-potable stream sample</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>HPC_CFU_per_1_mL</attrlabl>
+        <attrdef>Heterotrophic plate count, in colony forming units per milliliter</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>na</edomv>
+            <edomvd>not analyzed</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>10000</rdommax>
+            <attrunit>CFU/mL; colony forming units per milliliter</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Total_coliforms_CFU_per_100_mL</attrlabl>
+        <attrdef>Total coliforms, in colony forming units per 100 milliliters</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>6300</rdommax>
+            <attrunit>CFU/100 mL; colony forming units per 100 milliliters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>E.coli_CFU_per_100_mL</attrlabl>
+        <attrdef>Escherichia coli, in colony forming units per 100 milliliters</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>110</rdommax>
+            <attrunit>CFU/100 mL; colony forming units per 100 milliliters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntperp>
+          <cntper>GS ScienceBase</cntper>
+          <cntorg>U.S. Geological Survey</cntorg>
+        </cntperp>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <address>Denver Federal Center, Building 810, Mail Stop 302</address>
+          <city>Denver</city>
+          <state>CO</state>
+          <postal>80225</postal>
+          <country>United States</country>
+        </cntaddr>
+        <cntvoice>1-888-275-8747</cntvoice>
+        <cntemail>sciencebase@usgs.gov</cntemail>
+      </cntinfo>
+    </distrib>
+    <distliab>Unless otherwise stated, all data, metadata and related materials are considered to satisfy the quality standards relative to the purpose for which the data were collected. Although these data and associated metadata have been reviewed for accuracy and completeness and approved for release by the U.S. Geological Survey (USGS), no warranty expressed or implied is made regarding the display or utility of the data for other purposes, nor on all computer systems, nor shall the act of distribution constitute any such warranty. This report contains CAS Registry Numbers Tm. (CASRN), which is a Registered Trademark of the American Chemical Society. The American Chemical Society recommends the verification of the CASRNs through CAS Client Services Sm. Microbial analyses were performed by a research laboratory (i.e., not EPA-certified) following EPA standard operating procedures. This research was supported by the Division of Intramural Research, National Institute of Allergy and Infectious Diseases, National Institutes of Health, Bethesda, MD, USA. Funders were not involved in study design, data collection, analysis, or interpretation of the data. The content is solely the responsibility of the researchers and does not necessarily represent the official views of the National Institutes of Health. Any use of trade, firm, or product names is for descriptive purposes only and does not imply endorsement by the U.S. Government.</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>Digital Data</formname>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>https://doi.org/10.5066/P9R7MV6I</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+        </digtopt>
+      </digform>
+      <fees>None</fees>
+    </stdorder>
+  </distinfo>
+  <metainfo>
+    <metd>20231027</metd>
+    <metc>
+      <cntinfo>
+        <cntperp>
+          <cntper>GS-W-NJ DataRelease</cntper>
+          <cntorg>U.S. Geological Survey, New Jersey Water Science Center</cntorg>
+        </cntperp>
+        <cntpos>Data Release Manager</cntpos>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <address>3450 Princeton Pike, Suite 110</address>
+          <city>Lawrenceville</city>
+          <state>NJ</state>
+          <postal>08648</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>609-771-3900</cntvoice>
+        <cntfax>609-771-3915</cntfax>
+        <cntemail>gs-w-nj_datarelease@usgs.gov</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+  </metainfo>
+</metadata>

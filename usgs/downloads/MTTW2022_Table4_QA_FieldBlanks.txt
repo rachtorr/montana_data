@@ -1,0 +1,18 @@
+USGS_station_number	Sample_date_(yyyymmdd)	Sample_time_(HHMM)	NWIS_parameter_code	Parameter_name	Remark_and_result	Units_of_measurement	Analyzing_laboratory
+T453600107270018	20220810	1250	01059	Thallium	0.001	ug/L	ATECL
+T451257107225201	20220810	1330	28011	Uranium	0.001	ug/L	ATECL
+T452700107430003	20220808	1430	28011	Uranium	0.002	ug/L	ATECL
+T453600107270018	20220810	1250	00940	Chloride	0.100	mg/L	RCL
+T451257107225201	20220810	1330	00940	Chloride	0.200	mg/L	RCL
+T452700107430003	20220808	1430	00940	Chloride	0.200	mg/L	RCL
+T453600107270018	20220810	1250	01042	Copper	3.00	ug/L	RCL
+T453600107270018	20220810	1250	01045	Iron	3.00	ug/L	RCL
+T452700107430003	20220808	1430	00421	Alkalinity	2.00	mg/L CaCO3	RCL
+T453600107270018	20220810	1250	00421	Alkalinity	3.00	mg/L CaCO3	RCL
+T451257107225201	20220810	1330	00421	Alkalinity	2.00	mg/L CaCO3	RCL
+T452700107430003	20220808	1430	67999	Desmethyldiltiazem	E31.1	ng/l	NWQL
+T453600107270018	20220810	1250	67999	Desmethyldiltiazem	E5.47	ng/l	NWQL
+							
+"#Table 4. Quality-assurance field-blank detections collected for the U.S. Geological Survey (USGS), Environmental Health Program, Tapwater Exposure Study, Montana, 2022."							
+"#[y, year; m, month; d, day; H, military-hour; M, minute; NWIS, USGS National Water Information System; E, estimated; mg/L, milligrams per liter; ug/L, micrograms per liter; mg/L CaCO3, milligrams per liter calcium carbonate; ng/L, nanograms per liter; RCL, USGS Redox Chemistry Laboratory, Boulder, Colorado; ATECL, USGS Analytical Trace Element Chemistry Laboratory, Boulder, Colorado; NWQL, USGS National Water Quality Laboratory, Denver, Colorado]"							
+#[Station numbers are preceded by a 'T' to maintain the integrity of the value.]							
