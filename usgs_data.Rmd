@@ -8,16 +8,16 @@ date: "2025-07-14"
 knitr::opts_chunk$set(echo = TRUE)
 library(readr)
 library(tidyverse)
-library(sf)
 library(lubridate)
+
 ```
 
-## Exploring USGS data 
+# Exploring USGS data 
 
 [Link](https://www.sciencebase.gov/catalog/item/6400a064d34edc0ffaf4ef1b) to website with more info and metadata 
 
 
-### Spatial (table 1: site info)
+## Spatial (table 1: site info)
 
 ```{r}
 
@@ -38,17 +38,112 @@ table1$time = hm(format_time)
 table1$datetime = as_date(table1$date, table1$time)
 
 ggplot(table1) + 
-  geom_bar(aes(x=time, fill=Site_type)) + 
-  facet_grid('date')
-
-ggplot(table1) + 
   geom_bar(aes(x=Site_type, fill=Site_type)) +
   coord_flip()
 
+ggplot(table1, aes(x=as_datetime(time), fill=Site_type)) + 
+  geom_bar() + 
+  facet_grid('date') + 
+  labs(x="time", y="sample counts", fill = "site type")
+
 ```
 
+Questions from Table 1: 
 
-### Table 3 Results 
+- categorical data in site type - how many samples from each site? 
+- when were samples taken? which day had the most sampling for each site type? What time of day was sampling the most frequent? 
 
-### Table 6 Microbio 
+## Table 3 Results 
+```{r}
+
+tab3 <- read_delim("usgs/table3_results.csv", 
+    delim = "\t", escape_double = FALSE, 
+    trim_ws = TRUE)
+
+# unique(tab3$Parameter_name)
+
+```
+```{r}
+
+plist = data.frame(table(tab3$Parameter_name)) %>% 
+  filter(Freq > 27) # most parameters have 26 or 27 readings 
+  
+tab3 %>%  
+     filter(Parameter_name %in% plist$Var1) %>% 
+     ggplot(aes(x=Parameter_name)) + geom_bar() + coord_flip() + 
+     ggtitle("most sampled parameters")
+
+```
+
+Which parameters do we care about the most? Examples of what we can do:
+
+- if thresholds exist, see if any are over them 
+- descriptive statistics for each of water site types 
+- compare between groups - hypothesis testing 
+
+### Water temperature data 
+
+I'm going to start here with water temperature because it's what I'm most familiar with. 
+
+We can also use this dataset to practice filtering to create subsets of data sets.
+
+```{r}
+
+temp = tab3 %>% filter(Parameter_name == 'Temperature, water') %>% 
+  mutate(result = as.double(Remark_and_result))
+
+summary(temp$result)
+
+# summarize by site type 
+
+# factor codes to labels 
+temp$site_type = factor(temp$Medium_code, levels = c("WS","WT", "WG"),
+                        labels = c("Surface water", 
+                                    "treated water",
+                                    "ground water"))
+# visualize 
+ggplot(temp, aes(x=site_type, y=result)) + geom_boxplot()
+
+ggplot(temp, aes(x=site_type, y=result)) + geom_violin()
+
+ggplot(temp, aes(x=result, col=site_type)) + geom_density()
+
+# get summaries by type 
+temp %>% group_by(site_type) %>% 
+  summarise_at(vars(result), list(min=min, max=max, mean=mean))
+
+
+```
+Medium code: 
+
+- WG, groundwater (private well); 
+- WS, surface water; 
+- WT, treated water (public supply)
+
+Based on summary statistics we can see there is a difference in means across groups, but the treated and the groundwater have similar means. We can run a t test to test for significant difference. 
+
+```{r}
+
+# test between private well ground water and treated well 
+
+gw = temp %>% filter(Medium_code == "WG") %>% select(result)
+wt = temp %>% filter(Medium_code == "WT") %>% select(result)
+
+
+t.test(gw, wt)
+
+# we can also go surface water v one of these 
+
+gw = temp %>% filter(Medium_code == "WG") %>% select(result)
+sw = temp %>% filter(Medium_code == "WS") %>% select(result)
+
+
+t.test(gw, sw)
+
+```
+
+We could repeat this process for another variable by filtering by `Parameter_name`. 
+
+
+## Table 6 Microbio 
 
