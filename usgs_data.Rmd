@@ -63,6 +63,7 @@ tab3 <- read_delim("usgs/table3_results.csv",
 # unique(tab3$Parameter_name)
 
 ```
+
 ```{r}
 
 plist = data.frame(table(tab3$Parameter_name)) %>% 
@@ -146,4 +147,120 @@ We could repeat this process for another variable by filtering by `Parameter_nam
 
 
 ## Table 6 Microbio 
+
+```{r}
+tab6 <- read_delim("usgs/table6_microbio.csv", 
+     delim = "\t", escape_double = FALSE, 
+     trim_ws = TRUE)
+
+
+names(tab6)
+
+```
+
+Three columns of results to check: 
+
+- `HPC_CFU_per_1_mL`: heterotrophic plate count, measures the presence of microorganisms, not necessarily bad, indicator of overall bacteria amount in water. Vast majority of carbon consuming bacteria are harmless. Measured in colony forming units (CFU) per 1mL water. EPA enforces 'treatment technique' requirement that HPC concentrations should be under 500 CFU/mL. (source: [tap score](https://mytapscore.com/blogs/tips-for-taps/what-do-hpc-test-results-actually-mean))
+- `Total_coliforms_CFU_per_100_mL`: fecal/environmental contamination - coliform bacteria are natural partof microbiology of intestinal tract of warm blooded mammals, also found in soil, other animals, and insects. Is an indicator bacteria for presence of disease-causing organisms. Drinking water standard is <1 or zero CFU/100mL  (source: [Know your H2O](https://www.knowyourh2o.com/indoor-6/total-coliform-bacteria))
+- `E.coli_CFU_per_100_mL`: most common type of fecal coliform bacteria. Indicator of human and animal waste contamination. Exposure can cause sickness, and any amount detection is a problem for drinking water (source: [tap score](https://mytapscore.com/pages/contaminant-glossary))
+
+```{r}
+# quick summary
+summary(tab6)
+
+# fix HPC column 
+tab6$HPC_CFU_per_1_mL = as.double(tab6$HPC_CFU_per_1_mL)
+
+summary(tab6$HPC_CFU_per_1_mL)
+
+ggplot(tab6, aes(x=Site_type, y=HPC_CFU_per_1_mL)) + 
+  geom_hline(aes(yintercept = 500), col='red') + 
+  geom_boxplot()
+
+
+```
+
+There were some samples with HPC values above 500 CFU/mL, suggesting that they would not meet EPA drinking water requirements. These were for surface water, while private wells and public supply were below this standard. 
+
+```{r}
+# plot the other columns
+tab6 %>% 
+  pivot_longer(cols=c(Total_coliforms_CFU_per_100_mL, E.coli_CFU_per_100_mL)) %>% 
+  ggplot(aes(x=name, y=value, col=Site_type)) + 
+  geom_boxplot() +
+  theme_minimal()
+
+tab6 %>% 
+  ggplot(aes(x=Site_type, y=E.coli_CFU_per_100_mL, col=Site_type)) + 
+  geom_boxplot() +
+  theme_minimal()
+  
+
+```
+
+Surface water had the most e.coli detected, with at least one private well site having an outlier detected. 
+No e.coli was found in the public supply samples. 
+
+## Exploring other contaminants 
+
+Table 3 contains results from many different contaminants and could be used for teaching and learning about water quality. 
+
+The Environmental Protection Agency has a table for National Primary Drinking Water Regulations which lists microorganisms, metals, chemicals, and other contaminants. See the table [here](https://www.epa.gov/ground-water-and-drinking-water/national-primary-drinking-water-regulations).
+
+The company tap score has a 'Contaminant Glossary' on their website which has information on specific contaminants. See the glossary [here](https://mytapscore.com/pages/contaminant-glossary). 
+
+```{r}
+# select contaminant 
+contaminant = "lead"
+
+# check if exists in list 
+string = str_detect(tolower(unique(tab3$Parameter_name)), tolower(contaminant))
+ifelse(sum(string)==0, 
+   paste("contaminant not detected in list, check spelling or try different"), 
+   paste(contaminant, "was found in list"))
+
+# filter by contaminant
+tab3_filt = tab3 %>%
+  filter(tolower(Parameter_name)==tolower(contaminant)) %>% 
+  mutate(result = as.double(Remark_and_result),
+         site_type = factor(Medium_code, 
+                            levels = c("WS","WT", "WG"),
+                            labels = c("Surface water", 
+                                        "treated water",
+                                        "ground water")))
+
+# check out new data frame 
+dim(tab3_filt)
+
+head(tab3_filt)
+
+
+```
+
+Questions based on EPA table:
+
+- What are the sources of the contaminant in drinking water?
+- What are the potential health effects from long term exposure?
+- Who is most at risk?
+- What is the threshold amount to check for?
+
+Questions for exploring data:
+
+- Do these samples exceed the amount? 
+- For the samples that exceed it, what is the site type? 
+- Which site type contains the most? the least? 
+
+```{r}
+
+tab3_filt %>% 
+  ggplot(aes(x=site_type, y=result)) +
+  geom_boxplot() +
+  ggtitle(paste(contaminant, "levels in water samples")) +
+  theme_minimal() +
+  labs(y=paste(unique(tab3_filt$Units_of_measurement)),
+       x="site type")
+
+```
+
+
 
